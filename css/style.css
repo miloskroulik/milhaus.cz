@@ -1,0 +1,18 @@
+body {
+	background-image: url(../images/wavecut1.png);
+	background-repeat: repeat;
+	border-top: 3px solid rgb(22, 147, 165);
+}
+
+h1 {
+	color: rgb(22, 147, 165);
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 1em;
+}
+
+.social-icon {
+	display: inline-block;
+	height: 2em;
+	width: 2em;
+	padding-right: 0.5em;
+}
