@@ -1,0 +1,27 @@
+{
+  "name": "www.milhaus.cz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "Skeleton": "git://github.com/mshick/Skeleton.git",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "clean-css": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cleancss": "cat node_modules/normalize.css/normalize.css node_modules/Skeleton/css/skeleton.css css/style.css | cleancss -o css/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miloskroulik/miloskroulik.github.io.git"
+  },
+  "author": "Miloš Kroulík",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miloskroulik/miloskroulik.github.io/issues"
+  },
+  "homepage": "https://github.com/miloskroulik/miloskroulik.github.io"
+}
