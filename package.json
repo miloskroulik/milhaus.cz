@@ -5,10 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "Skeleton": "git://github.com/mshick/Skeleton.git",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
-    "clean-css": "^3.1.9"
+    "clean-css": "^3.1.9",
+    "gulp-clean-css": "^3.9.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
