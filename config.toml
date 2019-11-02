@@ -1,0 +1,24 @@
+baseURL = "https://www.milhaus.cz"
+languageCode = "en-us"
+title = "Miloš Kroulík"
+theme = "ezhil"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About me"
+url = "/about-me"
+weight = 3
+
+[[menu.main]]
+name = "CV"
+url = "/cv.html"
+weight = 4
